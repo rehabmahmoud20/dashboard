@@ -1,0 +1,220 @@
+/* start main rules */
+:root{
+    --main-color:#08A0F8;
+    --second-color:rgb(199, 193, 193);
+    --third-color:#F3F5F5;
+    --white-color:#fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  img{
+    width: 100%;
+    min-height:9.375rem;
+    max-height: 9.375rem;
+  }
+ 
+
+.muted{
+    color: rgb(199, 193, 193);
+}
+.main-color{
+    color: var(--main-color);
+}
+.text-center {
+    text-align: center;
+}
+  .margin-auto {
+    margin: 0 auto;
+  }
+  .margin-bottom-sm{
+    margin-bottom:5px
+  }
+  .margin-bottom{
+    margin-bottom:10px
+  }
+  .margin-bottom-extra{
+    margin-bottom:2rem
+  }
+  .flex{
+    display: flex;
+  }
+  .position-absolute{
+    position: absolute;
+  }
+  .position-relative{
+    position: relative;
+  }
+  .main-content-list  li,.staistics,.top-referal-list,.viewers,.discussion,.progress-bar{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+      }
+      .top-referal-list,.main-content-list  li,.staistics,.viewers,.discussion,.progress-bar{
+        background-color: var(--white-color);
+     }
+/* ---------------------------------------------------- end main rules ---------------------------------------------------- */
+/* --------------------------------------------------  start side bar -----------------------------------------------------*/
+aside{
+    padding: 1rem;
+    width: 20%;
+}
+
+.logo,.side-bar li{
+    padding: 1rem;
+width: fit-content;
+}
+.logo{
+    padding-top: 0;
+}
+.settings-list{
+    margin-bottom: 3.5rem;
+}
+.side-bar li{
+color: var(--second-color);
+}
+
+.side-bar li:hover{
+    border-radius: 0.5rem;
+   
+
+    background-color: var(--third-color);
+    color: var(--main-color);
+}
+
+aside:first-of-type ul li:nth-child(4){
+    border-bottom: 1px solid var(--second-color);
+}
+.draft{
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    background-color: var(--third-color);
+    width: fit-content;
+}
+.draft p{
+    width: 65%;
+}
+
+/* -------------------------------------- start main-content-section ------------------------------------------------------- */
+.main-content{
+    width: 60%;
+    background-color: var(--third-color);
+    padding: 1rem;
+}
+
+.main-content input{
+    width: 100%;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 0.5rem;
+
+}
+::placeholder{
+    color: var(--second-color);
+}
+  .search-icon{
+    padding: 1rem;
+  }
+  /* <!-- --------------------------------main content list ------------------------------------------------------> */
+
+  .main-content-list  li{
+    width: 20%;
+align-items: center;
+
+  }
+  .main-content-list{
+    justify-content: space-between;
+   align-items: center;
+
+  }
+
+  .main-content-list .content{
+    width:70%;
+  }
+  .icon{
+display: inline-block;
+height: 35px;
+width: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.5rem;
+border-radius: 50%;
+background-color: var(--main-color);
+  }
+  /* <!-- -------------------------------- start statictics section------------------------------------------------------> */
+
+.staistics .header{
+    justify-content: space-between;
+
+}
+.staistics .state li:last-of-type{
+    margin-left: 2rem;
+}
+
+/* <!-- -------------------------------- start top referal section------------------------------------------------------> */
+.main-list ul li p{
+    margin-left: 0.5rem;
+    padding: 8px 0;
+}
+
+.top-referal-list{
+    justify-content: space-between;
+    width: 35%;
+}
+.view-list  li{
+    padding: 8px 0;
+
+}
+.referal-statistics{
+    justify-content: space-between;
+
+}
+.viewers{
+    width: 60%;
+}
+.viewers .header,.users .main-list .header{
+    justify-content: space-between;
+}
+
+/* <!-- --------------------------------users section------------------------------------------------------> */
+.users{
+    background-color: var(--third-color);
+    width: 20%;
+}
+.user-data {
+    align-items: center;
+    justify-content: space-between;
+}
+.users img{
+    width: 50px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+}
+
+.progress-bar img{
+    width: 100px;
+    min-height: 150px;
+    max-height: 150px;
+}
+.progress-container{
+    margin:0 auto 2rem  ;
+    width: fit-content;
+
+}
+.devices{
+    justify-content: space-around;
+}
+
